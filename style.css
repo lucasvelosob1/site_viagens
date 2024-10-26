@@ -1,0 +1,80 @@
+body {
+    font-family: "Merriweather", serif;
+}
+
+h2, h3 {
+    font-family: "Poppins", serif;
+}
+
+#sobre-nos, #pacotes {
+    background-color: #E8D5B6;
+}
+
+.navbar {
+    background-color: #7D9A6A;
+}
+
+#cabecalho .nav .nav-link.active {
+    color: #7D9A6A;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background-color: #7D9A6A;
+    color:#fff;
+    border: none;
+
+}
+
+#fale-conosco button{
+    background-color: #7D9A6A;
+    color:#fff;
+}
+
+.nav-pills button {
+    background-color: #E8D5B6;
+    color:#7D9A6A;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+    background-color: #6C8A5E;
+    color: #fff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #fff;
+    color: #7D9A6A;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #6C8A5E;
+    color: #fff;
+}
+
+.social-links a {
+    color: #7D9A6A;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
